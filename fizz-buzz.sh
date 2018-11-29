@@ -16,5 +16,5 @@ elif ! ((my_number % 5)) && ((my_number % 15)); then
 elif ! ((my_number % 15)) ; then
 	echo "fizz buzz"
 else
-	echo my_number
+	echo $my_number
 fi
